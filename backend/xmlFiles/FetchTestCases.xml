@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Header>
+    <RequestHeader xmlns="http://schemas.microsoft.com/TeamFoundation/2005/06/WorkItemTracking/ClientServices/03">
+      <Id>uuid:6e695bff-9969-480e-97aa-07689dcb8b30</Id>
+    </RequestHeader>
+  </soap12:Header>
+  <soap12:Body>
+    <PageWorkitemsByIds xmlns="http://schemas.microsoft.com/TeamFoundation/2005/06/WorkItemTracking/ClientServices/03">
+      <ids>
+        <int>int</int>
+        <int>int</int>
+      </ids>
+      <columns>
+        <string>System.Id</string>
+        <string>Microsoft.VSTS.Common.Priority</string>
+      </columns>
+    </PageWorkitemsByIds>
+  </soap12:Body>
+</soap12:Envelope>

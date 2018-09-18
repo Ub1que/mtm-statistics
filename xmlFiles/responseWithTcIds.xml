@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+        xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <FetchTestSuitesResponse xmlns="http://schemas.microsoft.com/TeamFoundation/2007/02/TCM/TestResults/01">
+            <FetchTestSuitesResult>
+                <ServerTestSuite Id="30146" PlanId="102" ParentId="29651" Title="157650 - Action menu" Description="" RequirementId="0" Revision="27" SuiteType="2" InheritDefaultConfigurations="true" LastPopulated="0001-01-01T00:00:00" State="2" LastUpdatedBy="73befe1c-2870-4dba-9e95-964c93ea7b70" LastUpdated="2017-07-12T08:49:59.81Z">
+                    <ServerEntries>
+                        <TestSuiteEntry EntryId="135771">
+                            <PointAssignments>
+                                <TestPointAssignment TestCaseId="135771" ConfigurationId="52" ConfigurationName="Windows 7 and IE 8" AssignedTo="c172270f-14a6-43a6-a5f1-8b4550780d61" />
+                            </PointAssignments>
+                        </TestSuiteEntry>
+                        <TestSuiteEntry EntryId="136402">
+                            <PointAssignments>
+                                <TestPointAssignment TestCaseId="136402" ConfigurationId="52" ConfigurationName="Windows 7 and IE 8" AssignedTo="c172270f-14a6-43a6-a5f1-8b4550780d61" />
+                            </PointAssignments>
+                        </TestSuiteEntry>
+                        <TestSuiteEntry EntryId="136404">
+                            <PointAssignments>
+                                <TestPointAssignment TestCaseId="136404" ConfigurationId="52" ConfigurationName="Windows 7 and IE 8" AssignedTo="c172270f-14a6-43a6-a5f1-8b4550780d61" />
+                            </PointAssignments>
+                        </TestSuiteEntry>
+                        <TestSuiteEntry EntryId="136406">
+                            <PointAssignments>
+                                <TestPointAssignment TestCaseId="136406" ConfigurationId="52" ConfigurationName="Windows 7 and IE 8" AssignedTo="c172270f-14a6-43a6-a5f1-8b4550780d61" />
+                            </PointAssignments>
+                        </TestSuiteEntry>
+                        <TestSuiteEntry EntryId="136416">
+                            <PointAssignments>
+                                <TestPointAssignment TestCaseId="136416" ConfigurationId="52" ConfigurationName="Windows 7 and IE 8" AssignedTo="c172270f-14a6-43a6-a5f1-8b4550780d61" />
+                            </PointAssignments>
+                        </TestSuiteEntry>
+                        <TestSuiteEntry EntryId="136418">
+                            <PointAssignments>
+                                <TestPointAssignment TestCaseId="136418" ConfigurationId="52" ConfigurationName="Windows 7 and IE 8" AssignedTo="c172270f-14a6-43a6-a5f1-8b4550780d61" />
+                            </PointAssignments>
+                        </TestSuiteEntry>
+                    </ServerEntries>
+                    <DefaultConfigurations />
+                    <DefaultConfigurationNames />
+                </ServerTestSuite>
+            </FetchTestSuitesResult>
+            <deletedIds />
+        </FetchTestSuitesResponse>
+    </soap:Body>
+</soap:Envelope>

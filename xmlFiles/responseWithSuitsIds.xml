@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+        xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <FetchTestSuitesResponse
+                xmlns="http://schemas.microsoft.com/TeamFoundation/2007/02/TCM/TestResults/01">
+            <FetchTestSuitesResult>
+                <ServerTestSuite Id="29651" PlanId="102" ParentId="29630" Title="Process Dashboard" Description="" RequirementId="0" Revision="10" SuiteType="2" InheritDefaultConfigurations="true" LastPopulated="0001-01-01T00:00:00" State="2" LastUpdatedBy="c172270f-14a6-43a6-a5f1-8b4550780d61" LastUpdated="2017-02-27T09:33:03.877Z">
+                    <ServerEntries>
+                        <TestSuiteEntry EntryId="29632" EntryType="2" />
+                        <TestSuiteEntry EntryId="29215" EntryType="2" />
+                        <TestSuiteEntry EntryId="30146" EntryType="2" />
+                        <TestSuiteEntry EntryId="30147" EntryType="2" />
+                        <TestSuiteEntry EntryId="30149" EntryType="2" />
+                        <TestSuiteEntry EntryId="30162" EntryType="2" />
+                        <TestSuiteEntry EntryId="30165" EntryType="2" />
+                        <TestSuiteEntry EntryId="31144" EntryType="2" />
+                    </ServerEntries>
+                    <DefaultConfigurations />
+                    <DefaultConfigurationNames />
+                </ServerTestSuite>
+            </FetchTestSuitesResult>
+            <deletedIds />
+        </FetchTestSuitesResponse>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+        xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <PageWorkitemsByIdsResponse
+                xmlns="http://schemas.microsoft.com/TeamFoundation/2005/06/WorkItemTracking/ClientServices/03">
+            <items xml:space="preserve">
+                <table name="Items">
+                    <columns>
+                        <c>
+                            <n>System.Id</n>
+                            <t>System.Int32</t>
+                        </c>
+                        <c>
+                            <n>Cname.TestType</n>
+                            <t>System.String</t>
+                        </c>
+                    </columns>
+                    <rows>
+                        <r>
+                            <f>136566</f>
+                            <f>Automation</f>
+                        </r>
+                        <r>
+                            <f>136645</f>
+                            <f>Functional</f>
+                        </r>
+                        <r>
+                            <f>136646</f>
+                            <f>Automation</f>
+                        </r>
+                        <r>
+                            <f>136652</f>
+                            <f>Functional</f>
+                        </r>
+                        <r>
+                            <f>136656</f>
+                            <f>Functional</f>
+                        </r>
+                    </rows>
+                </table>
+            </items>
+        </PageWorkitemsByIdsResponse>
+    </soap:Body>
+</soap:Envelope>

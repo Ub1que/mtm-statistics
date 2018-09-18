@@ -1,0 +1,17 @@
+.irTree {
+  background-color: darkgrey;
+  box-sizing: border-box;
+  height: 100%;
+  width: 460px;
+  margin-left: 0px;
+  overflow-y: scroll;
+  font-size: 14px;
+}
+
+.App {
+  height:100%
+}
+
+.boxview {
+	height:100%
+};

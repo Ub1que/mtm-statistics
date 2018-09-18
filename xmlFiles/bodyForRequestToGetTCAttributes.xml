@@ -1,0 +1,26 @@
+<s:Envelope
+        xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+    <s:Header>
+        <RequestHeader
+                xmlns="http://schemas.microsoft.com/TeamFoundation/2005/06/WorkItemTracking/ClientServices/03">
+            <Id>uuid:6e695bff-9969-480e-97aa-07689dcb8b30</Id>
+        </RequestHeader>
+    </s:Header>
+    <s:Body>
+        <PageWorkitemsByIds
+                xmlns="http://schemas.microsoft.com/TeamFoundation/2005/06/WorkItemTracking/ClientServices/03">
+            <ids>
+                <int>135771</int>
+                <int>136402</int>
+                <int>136404</int>
+                <int>136406</int>
+                <int>136416</int>
+                <int>136418</int>
+            </ids>
+            <columns>
+                <string>System.Id</string>
+                <string>Microsoft.VSTS.TCM.AutomationStatus</string>
+            </columns>
+        </PageWorkitemsByIds>
+    </s:Body>
+</s:Envelope>
