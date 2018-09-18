@@ -6,6 +6,6 @@ It reprocude tree of TFS MTM testplan and gather statistics by selected items.
 
 ### App is incomplete!
 ### Drawbacks:
-Credentials are not stored anywhere.
-Urls should be specified manualy
-Specify progect name in xml files
+ - Credentials are not stored anywhere.
+ - Urls should be specified manualy.
+ - Specify progect name in xml files.
